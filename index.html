@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento WEB</title>
+</head>
+
+<body>
+    <h1 id="inicio">Primeiros Passos</h1>
+    <hr>
+    <h2>Indice</h2>
+    <ul>
+        <li> <a href="#entendendo">Entendendo Comunicação Client x Server</a></li>
+        <li> <a href="#introdução">Introdução ao HTML</a></li>
+    </ul>
+    <br>
+    <hr>
+
+    <h3 id="entendendo">Entendendo Comunicação Client x Server</h3>
+    <a href="#inicio"> <small>(Voltar)</small></a>
+    <p>A comunicação entre cliente e servidor é um processo fundamental na computação e na internet, que permite que
+        dispositivos (clientes) solicitem e obtenham informações ou serviços de outros dispositivos (servidores). De
+        forma resumida, esse processo envolve os seguintes passos:</p>
+    <p>1°.Solicitação do Cliente: O cliente envia uma solicitação ao servidor. Essa solicitação pode ser uma requisição
+        de uma página da web, envio de dados, solicitação de arquivos, etc.</p>
+    <p>2°.Roteamento: A solicitação do cliente é encaminhada pela rede até chegar ao servidor correto. Isso envolve a
+        resolução de nomes de domínio (DNS) para encontrar o endereço IP do servidor, se necessário.</p>
+    <p>3°.Processamento no Servidor: O servidor recebe a solicitação, processa-a e executa a ação desejada. Isso pode
+        incluir acessar um banco de dados, executar um aplicativo, buscar arquivos ou qualquer outra tarefa necessária
+        para atender à solicitação.</p>
+    <p>4°. Resposta do Servidor: Após o processamento, o servidor envia uma resposta de volta para o cliente. Essa
+        resposta pode conter dados solicitados, informações de estado, códigos de status (como 200 OK ou 404 Not Found)
+        e outros metadados.</p>
+    <p>5°. Recepção e Exibição pelo Cliente: O cliente recebe a resposta do servidor e a exibe ao usuário ou a utiliza
+        conforme necessário. Isso pode incluir a renderização de uma página da web, o processamento de dados recebidos
+        ou qualquer outra ação determinada pela solicitação original.</p>
+    <p>Essa comunicação cliente-servidor é a base da maioria dos serviços online, desde páginas da web até aplicativos
+        móveis e serviços em nuvem. Ela permite que os clientes interajam com servidores para obter informações e
+        funcionalidades, tornando-a essencial para a internet e a computação moderna.</p>
+    <hr>
+    <h3 id="introdução">Introdução ao HTML</h3>
+    <a href="#inicio"> <small>(Voltar)</small></a>
+    <p>O HTML (Hypertext Markup Language) é a linguagem de marcação usada para criar documentos na web, como páginas da
+        web. Sua história remonta ao início da World Wide Web (WWW). Aqui está uma breve história do HTML:</p>
+    <p>1°.Nascimento da WWW (1989-1990): O cientista da computação britânico Tim Berners-Lee, trabalhando no CERN
+        (Organização Europeia para a Pesquisa Nuclear) na Suíça, propôs um sistema para compartilhar documentos de
+        pesquisa entre cientistas. Ele escreveu o primeiro documento HTML e desenvolveu o primeiro navegador e servidor
+        web em 1990.</p>
+    <p>2°.HTML 1.0 (1993): O HTML 1.0 foi o primeiro padrão oficial da linguagem de marcação. Ele permitia a criação de
+        documentos simples com links e formatação de texto básica.</p>
+    <p>3°.HTML 2.0 (1995): Esta versão trouxe melhorias significativas, incluindo formulários para interação do usuário,
+        tabelas e suporte a imagens.</p>
+    <p>4°.HTML 3.0 (não amplamente adotado): Introduziu novos recursos, mas teve adoção limitada devido a problemas de
+        compatibilidade entre navegadores</p>
+    <hr>
+    <h3>Algumas tags e suas funcionalidades</h3>
+    <p>Em HTML (Hypertext Markup Language), tags são usadas para definir elementos em uma página da web. As tags são
+        colocadas entre colchetes angulares ("<" e ">" ) e vêm em pares: uma tag de abertura e uma tag de fechamento.
+            Aqui estão algumas tags HTML comumente usadas: '!DOCTYPE' : Especifica o tipo de documento e a versão do
+            HTML que está sendo usado.</p>
+            <p> 'html' : O elemento raiz que contém todos os outros elementos HTML da página.</p>
+            <p> 'head' : Contém metadados sobre o documento, como título, codificação de caracteres e folhas de estilo
+                ou scripts vinculados</p>
+
+            <head>
+                <title>Minha Página Web</title>
+                <!-- Outros metadados vão aqui -->
+            </head>
+            <p> 'meta' : Fornece metadados sobre o documento HTML, como codificação de caracteres e configurações da
+                janela de visualização.</p>
+            <p> 'title' : Define o título da página web, que é exibido na barra de título ou guia do navegador.</p>
+            <title>Minha Página Web</title>
+            <p> 'body' : Contém o conteúdo principal da página web que é visível aos usuários.</p>
+
+            <body>
+                <h1>Olá, Mundo!!</h1>
+                <p>Este é um exemplo de página da web.</p>
+            </body>
+            <p> 'h1 a h6' : Títulos de diferentes níveis, onde h1 é o nível mais alto e h6 é o mais baixo.</p>
+            <h1>Cabeçalho nível 1</h1>
+            <h2>Cabeçalho nível 2</h2>
+            <h3>Cabeçalho nível 3</h3>
+            <h4>Cabeçalho nível 4</h4>
+            <h5>Cabeçalho nível 5</h5>
+            <h6>Cabeçalho nível 6</h6>
+            <p> 'p' : Representa um parágrafo de texto.</p>
+            <p>Isto é um paragrafo.</p>
+            <p> 'a' : Cria um hiperlink para outra página da web ou recurso.</p>
+            <a href=https://github.com/TamySouzaa>Visite meu GitHub e conheça meus projetos.</a>
+
+            <p>A 'tag' mark é utilizada para Marcar texto </p>
+            <mark>Minha página Web.</mark>
+            <p> Utilize-se 'ol e li' para criar uma lista ordenada (numerada).</p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+            <p>Neste exemplo, o sub é utilizado como etiqueta:</p>
+            <p>Olá, mund<sub>o</sub></p>
+            <p>A tag 'blockquote' em HTML é usada para marcar blocos de texto que são uma citação de outra fonte. Ela é
+                comumente usada para destacar um trecho de texto que foi tirado de um livro, artigo, site ou qualquer
+                outra fonte externa. Geralmente, o texto dentro de um elemento blockquote é recuado e estilizado de
+                forma diferente para indicar que é uma citação. Aqui está como você pode usar a tag blockquote:</p>
+            <p>Aqui está um exemplo mais completo com múltiplos parágrafos dentro de um blockquote:</p>
+            <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Nullam in massa vel erat rhoncus aliquet in nec dolor.</p>
+                <footer>John Doe</footer>
+            </blockquote>
+            <p>
+                A tag 'font' é uma tag HTML obsoleta que costumava ser usada para definir o tamanho, a cor e outras
+                propriedades de fonte de texto em uma página da web. No entanto, a partir do HTML5, essa tag foi
+                considerada obsoleta e não é mais recomendada para uso. Em vez disso, o estilo de texto deve ser
+                controlado por meio de CSS (Cascading Style Sheets), que oferece um maior nível de controle e
+                flexibilidade sobre a apresentação do texto.</p>
+            <p>Aqui está um exemplo do uso da tag font , embora seja importante notar que seu uso não é mais apropriado
+                em HTML moderno:</p>
+            <p>
+                <font size="4" color="red">Este é um texto com a tag 'Font' .</font>
+            </p>
+            <p>A tag 'del' em HTML é usada para representar texto que foi deletado ou removido de um documento. Ela é
+                frequentemente usada em contextos como revisões de documentos, históricos de alterações ou para mostrar
+                que parte do texto foi removida. O texto dentro da tag del é tipicamente exibido com uma linha
+                horizontal através dele para indicar a remoção. Aqui está como você pode usar a tag del:</p>
+            <p>Este é um parágrafo com um <del>texto deletado</del> no meio.</p>
+            <p>A tag 'abbr' em HTML é usada para definir uma abreviação ou uma sigla e geralmente é usada para fornecer
+                uma descrição completa do que a abreviação ou sigla representa. Ela é útil para tornar o conteúdo da
+                página mais acessível, pois permite que os leitores compreendam o significado de uma abreviação ou sigla
+                sem sair da página.</p>
+            <p>Aqui está um exemplo de como usar a tag 'abbr':</p>
+            <p>
+            <p>HTML é uma linguagem de marcação amplamente usada na criação de páginas da web.</p>
+            <p><abbr title="Hypertext Markup Language">HTML</abbr> é uma linguagem de marcação amplamente usada na
+                criação de páginas da web.</p>
+    </p>
+    <p>Formulários HTML são elementos fundamentais para coletar informações de usuários em uma página da web. Eles
+        permitem a criação de campos de entrada, botões de envio e outros elementos interativos que os usuários podem
+        preencher e enviar. Aqui está uma estrutura básica de um formulário HTML:</p>
+    <p>
+    <form action="processar.php" method="post">
+        <!-- Campos de entrada e outros elementos do formulário -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+    </p>
+    <p>
+        Neste exemplo:
+
+    <form>: Define o início de um formulário. O atributo action especifica para onde os dados do formulário serão
+        enviados (geralmente uma URL de processamento no servidor), e o atributo method especifica como os dados serão
+        enviados (geralmente como POST ou GET).</p>
+        <p><label>: Rótulos que descrevem o propósito dos campos de entrada. O atributo for está associado ao id do
+                elemento de entrada correspondente, melhorando a acessibilidade.</p>
+        <p> <input>: Elementos de entrada que podem ser usados para coletar informações. O atributo type especifica o
+            tipo de campo de entrada, como texto, email, senha, etc. O atributo id é usado para associar o rótulo ao
+            campo de entrada, e o atributo name é usado para identificar o campo quando os dados são enviados. O
+            atributo required indica que o campo é obrigatório.</p>
+        <p><input type="submit">: Um botão de envio que permite ao usuário enviar o formulário</p>
+        <p>Quando o usuário preenche os campos e clica no botão de envio, os dados do formulário são enviados para o URL
+            especificado no atributo action do
+        <form>. Você precisará de um servidor web ou script do lado do servidor para processar esses dados e realizar
+            ações com base neles.</p>
+            <p>Além dos elementos mencionados acima, os formulários HTML também podem incluir elementos como <textarea> para áreas de texto mais longas, <select> para menus suspensos e elementos de entrada personalizados usando <input type="radio">, <input type="checkbox">, entre outros. Os formulários também podem ser estilizados e validados usando CSS e JavaScript para melhorar a experiência do usuário.</p>
+<p>Estes são apenas alguns exemplos de tags HTML. HTML fornece uma ampla variedade de tags para estruturar e formatar conteúdo da web, e você também pode criar elementos personalizados usando atributos como class e id para aplicar estilos CSS ou funcionalidade JavaScript</p>
+
+
+
+        </body>
+
+</html>
